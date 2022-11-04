@@ -67,7 +67,7 @@ let cadenaHtml="";
 
 function CargarPreguntas(param,indice) {
     
-    console.log('indice:' + indice)
+   
 
     //$.get(url, response) donde response representa el objeto resultante de la consulta ajax a la API
     $.get("https://opentdb.com/api.php?amount=9&category=" + param, function (data) {
